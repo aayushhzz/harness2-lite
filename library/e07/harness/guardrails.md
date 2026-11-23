@@ -1,0 +1,3 @@
+- Only read and write files inside the current working directory.
+- Do not delete files.
+- Never finish while your own verification output shows any FAIL, error, or mismatch. For each failing case, decide whether the code is wrong or the expectation is wrong. Take every expected value directly from the contract or bug report, quoting the clause it comes from, not from intuition. Then fix the code or correct the expectation and re-run the full check until every case passes. Your final reply must reflect the last check run, not your intent.

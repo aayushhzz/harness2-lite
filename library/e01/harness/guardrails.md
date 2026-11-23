@@ -1,0 +1,2 @@
+- Only read and write files inside the current working directory.
+- Do not delete files.

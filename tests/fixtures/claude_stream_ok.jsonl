@@ -1,0 +1,8 @@
+{"type":"system","subtype":"init","session_id":"s1"}
+{"type":"assistant","message":{"id":"msg_1","content":[{"type":"tool_use","id":"toolu_1","name":"Read","input":{"file_path":"/abs/x.py"}}],"usage":{"input_tokens":2,"cache_creation_input_tokens":5,"cache_read_input_tokens":10,"output_tokens":3}}}
+{"type":"user","message":{"content":[{"type":"tool_result","tool_use_id":"toolu_1","content":"def f(): pass"}]}}
+{"type":"assistant","message":{"id":"msg_2","content":[{"type":"tool_use","id":"toolu_2","name":"Read","input":{"file_path":"/abs/missing.py"}}],"usage":{"input_tokens":2,"cache_creation_input_tokens":0,"cache_read_input_tokens":11,"output_tokens":4}}}
+{"type":"user","message":{"content":[{"type":"tool_result","tool_use_id":"toolu_2","content":[{"type":"text","text":"file not found"}],"is_error":true}]}}
+{"type":"rate_limit_event","rate_limit_info":{"status":"allowed"}}
+{"type":"assistant","message":{"id":"msg_3","content":[{"type":"text","text":"Fixed the bug."}],"usage":{"input_tokens":1,"cache_creation_input_tokens":0,"cache_read_input_tokens":1,"output_tokens":6}}}
+{"type":"result","subtype":"success","is_error":false,"num_turns":3,"result":"Fixed the bug.","usage":{"input_tokens":4,"cache_creation_input_tokens":37840,"cache_read_input_tokens":1060,"output_tokens":317},"terminal_reason":"completed"}

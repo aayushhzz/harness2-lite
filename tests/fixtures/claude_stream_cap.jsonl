@@ -1,0 +1,8 @@
+{"type":"assistant","message":{"id":"m1","content":[{"type":"tool_use","id":"t1","name":"Bash","input":{"command":"ls"}}],"usage":{"input_tokens":1,"output_tokens":1}}}
+{"type":"user","message":{"content":[{"type":"tool_result","tool_use_id":"t1","content":"a.py"}]}}
+{"type":"assistant","message":{"id":"m2","content":[{"type":"tool_use","id":"t2","name":"Bash","input":{"command":"ls -a"}}],"usage":{"input_tokens":1,"output_tokens":1}}}
+{"type":"user","message":{"content":[{"type":"tool_result","tool_use_id":"t2","content":"a.py"}]}}
+{"type":"assistant","message":{"id":"m3","content":[{"type":"tool_use","id":"t3","name":"Bash","input":{"command":"pwd"}}],"usage":{"input_tokens":1,"output_tokens":1}}}
+{"type":"user","message":{"content":[{"type":"tool_result","tool_use_id":"t3","content":"/x"}]}}
+{"type":"assistant","message":{"id":"m4","content":[{"type":"tool_use","id":"t4","name":"Bash","input":{"command":"date"}}],"usage":{"input_tokens":1,"output_tokens":1}}}
+{"type":"assistant","message":{"id":"m5","content":[{"type":"tool_use","id":"t5","name":"Bash","input":{"command":"whoami"}}],"usage":{"input_tokens":1,"output_tokens":1}}}

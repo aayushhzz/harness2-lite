@@ -1,0 +1,1 @@
+Skills are short how-to notes the agent reads before starting. Add files named skills/<topic>.md. This placeholder is ignored by the agent (files starting with an underscore are not loaded) but shows editors where skills go.

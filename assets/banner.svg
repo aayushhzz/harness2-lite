@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="harness2-lite — Propose-Probe-Compose Harness Evolution and Experience Library">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="50%" stop-color="#111936"/>
+      <stop offset="100%" stop-color="#0D1F2D"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="50%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.28"/>
+      <stop offset="60%" stop-color="#38BDF8" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0B1120" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#1E293B" stroke-width="1" opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <rect x="2" y="2" width="1196" height="316" rx="18" fill="url(#bg)" stroke="#1E293B" stroke-width="2"/>
+  <rect x="2" y="2" width="1196" height="316" rx="18" fill="url(#grid)" opacity="0.55"/>
+  <circle cx="185" cy="160" r="148" fill="url(#glow)"/>
+
+  <!-- Emblem: Propose -> Probe -> Compose Cycle + Library Stack -->
+  <g transform="translate(88, 66)">
+    <rect x="0" y="0" width="192" height="188" rx="16" fill="#0C1326" stroke="#283558" stroke-width="2"/>
+
+    <!-- Connecting triangle / cycle ring -->
+    <circle cx="96" cy="96" r="52" fill="none" stroke="url(#ring)" stroke-width="2.5" stroke-dasharray="10 6" opacity="0.85"/>
+
+    <!-- Top node: Propose -->
+    <circle cx="96" cy="44" r="18" fill="#1E1B4B" stroke="#A78BFA" stroke-width="2.5"/>
+    <text x="96" y="49" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#DDD6FE">P1</text>
+
+    <!-- Bottom-left node: Probe -->
+    <circle cx="51" cy="122" r="18" fill="#0C243D" stroke="#38BDF8" stroke-width="2.5"/>
+    <text x="51" y="127" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#BAE6FD">P2</text>
+
+    <!-- Bottom-right node: Compose -->
+    <circle cx="141" cy="122" r="18" fill="#0B2D2B" stroke="#2DD4BF" stroke-width="2.5"/>
+    <text x="141" y="127" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#99F6E4">C</text>
+
+    <!-- Center Experience Library icon -->
+    <rect x="81" y="83" width="30" height="24" rx="4" fill="#1E293B" stroke="#94A3B8" stroke-width="1.5"/>
+    <line x1="87" y1="91" x2="105" y2="91" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
+    <line x1="87" y1="99" x2="101" y2="99" stroke="#2DD4BF" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Text -->
+  <g transform="translate(324, 102)">
+    <rect x="0" y="-32" width="218" height="26" rx="13" fill="#A78BFA" fill-opacity="0.16" stroke="#A78BFA" stroke-opacity="0.45" stroke-width="1"/>
+    <text x="109" y="-14" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="1.1" fill="#C4B5FD">HARNESS² · ARXIV 2610.14224</text>
+
+    <text x="0" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="60" font-weight="800" letter-spacing="-1.5" fill="#F8FAFC">harness2-lite</text>
+    <text x="2" y="88" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#94A3B8">Propose–Probe–Compose Harness Evolution on a Frozen Model</text>
+
+    <!-- Feature pills -->
+    <g transform="translate(0, 116)">
+      <rect x="0" y="0" width="160" height="30" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+      <text x="80" y="20" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#DDD6FE">Label-Free Contrast</text>
+
+      <rect x="172" y="0" width="164" height="30" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+      <text x="254" y="20" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#BAE6FD">Experience Library</text>
+
+      <rect x="348" y="0" width="152" height="30" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+      <text x="424" y="20" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#99F6E4">16 Synthetic Tasks</text>
+
+      <rect x="512" y="0" width="156" height="30" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+      <text x="590" y="20" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#CBD5E1">198 Offline Tests</text>
+    </g>
+  </g>
+</svg>
